@@ -1,0 +1,17 @@
+hp@hp-hp250g4notebookpc:~/Documents/copies/example-backend$ sudo docker image history back-end
+IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
+1340eab17853   3 minutes ago   CMD ["/bin/sh" "-c" "./server"]                 0B        buildkit.dockerfile.v0
+<missing>      3 minutes ago   USER appuser                                    0B        buildkit.dockerfile.v0
+<missing>      3 minutes ago   RUN /bin/sh -c apt-get update && apt-get ins…   535MB     buildkit.dockerfile.v0
+<missing>      2 days ago      COPY go1.16.linux-amd64.tar.gz . # buildkit     129MB     buildkit.dockerfile.v0
+<missing>      2 days ago      COPY . . # buildkit                             129MB     buildkit.dockerfile.v0
+<missing>      2 days ago      WORKDIR /usr/src/app                            0B        buildkit.dockerfile.v0
+<missing>      2 days ago      EXPOSE map[8080/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      10 days ago     /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B
+<missing>      10 days ago     /bin/sh -c #(nop) ADD file:7f5ee17de6aff2b67…   76.2MB
+<missing>      10 days ago     /bin/sh -c #(nop)  LABEL org.opencontainers.…   0B
+<missing>      10 days ago     /bin/sh -c #(nop)  LABEL org.opencontainers.…   0B
+<missing>      10 days ago     /bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH     0B
+<missing>      10 days ago     /bin/sh -c #(nop)  ARG RELEASE                  0B
+hp@hp-hp250g4notebookpc:~/Documents/copies/example-backend$
+

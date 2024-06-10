@@ -1,0 +1,4 @@
+hp@hp-hp250g4notebookpc:~/Documents/copies/example-backend-copy$ sudo docker image ls
+REPOSITORY                                   TAG       IMAGE ID       CREATED             SIZE
+back-end-multistage                          latest    e255cd3f3661   8 minutes ago       18.1MB
+back-end                                     latest    493459d66058   3 hours ago         447MB

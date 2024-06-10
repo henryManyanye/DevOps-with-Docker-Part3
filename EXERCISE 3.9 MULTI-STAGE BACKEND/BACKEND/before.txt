@@ -1,0 +1,2 @@
+hp@hp-hp250g4notebookpc:~/Documents/copies/example-backend-copy$ sudo docker image ls
+back-end                                     latest    493459d66058   59 minutes ago   447MB

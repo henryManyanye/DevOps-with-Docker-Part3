@@ -1,0 +1,20 @@
+ 
+hp@hp-hp250g4notebookpc:~/Documents/copies/front-end$ sudo docker image history node
+IMAGE          CREATED      CREATED BY                                      SIZE      COMMENT
+d87ba2e04329   2 days ago   CMD ["/bin/sh" "-c" "serve -s -l 5000 build"]   0B        buildkit.dockerfile.v0
+<missing>      2 days ago   RUN /bin/sh -c npm install
+npm run build
+npm…        269MB         buildkit.dockerfile.v0
+<missing>   2 days ago    ENV REACT_APP_BACKEND_URL=http://localhost:8…   0B        buildkit.dockerfile.v0
+<missing>   2 days ago    COPY . . # buildkit                             707kB     buildkit.dockerfile.v0
+<missing>   2 days ago    WORKDIR /usr/src/app                            0B        buildkit.dockerfile.v0
+<missing>   2 days ago    EXPOSE map[5000/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>   3 years ago   /bin/sh -c #(nop)  CMD ["node"]                 0B
+<missing>   3 years ago   /bin/sh -c #(nop)  ENTRYPOINT ["docker-entry…   0B
+<missing>   3 years ago   /bin/sh -c #(nop) COPY file:238737301d473041…   116B
+<missing>   3 years ago   /bin/sh -c apk add --no-cache --virtual .bui…   7.62MB
+<missing>   3 years ago   /bin/sh -c #(nop)  ENV YARN_VERSION=1.22.5      0B
+<missing>   3 years ago   /bin/sh -c addgroup -g 1000 node     && addu…   95.8MB
+<missing>   3 years ago   /bin/sh -c #(nop)  ENV NODE_VERSION=15.4.0      0B
+<missing>   4 years ago   /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B
+<missing>   4 years ago   /bin/sh -c #(nop) ADD file:66a440394c2442570…   5.58MB

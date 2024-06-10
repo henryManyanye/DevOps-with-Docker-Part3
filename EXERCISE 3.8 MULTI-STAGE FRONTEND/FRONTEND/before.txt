@@ -1,0 +1,3 @@
+hp@hp-hp250g4notebookpc:~/Documents/copies/example-frontend$ sudo docker image ls
+REPOSITORY                                   TAG       IMAGE ID       CREATED              SIZE
+front-end                                    latest    03c434764c51   About an hour ago    379MB
